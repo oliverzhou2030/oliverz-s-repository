@@ -1,0 +1,11 @@
+Beagle
+Boxer
+Bulldog
+Butterfly dog
+Dachshund
+German shepherd
+Golden retriever
+Labrador retriever
+Poodle
+Rottweiler
+Yorkshire terrier
