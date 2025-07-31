@@ -19,7 +19,7 @@ net = jetson_inference.imageNet(
     model="resnet18.onnx",
     input_blob="input_0",
     output_blob="output_0",
-    labels="labels.txt"
+    labels="dataset/labels.txt"
 )
 
 class_idx, confidence = net.Classify(img)
