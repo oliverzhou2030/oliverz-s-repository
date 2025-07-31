@@ -13,7 +13,6 @@ parser.add_argument("--network", type=str, default="resnet-18", help="model to u
 opt = parser.parse_args()
 
 img = jetson_utils.loadImage(opt.filename)
-
 net = jetson_inference.imageNet(
     opt.network,
     model="resnet18.onnx",
